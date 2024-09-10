@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 24px;
+}
+
+#map {
+    height: 600px;
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Style pour le texte sous l'icÃ´ne */
+.city-label span {
+    color: #000;      /* Couleur du texte */
+    font-size: 12px;  /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    /*background-color: white; /* Fond blanc pour lisibilitÃ© */
+    padding: 2px 5px; /* Ajout d'un peu de padding autour du texte */
+    /*border-radius: 3px; /* Bords lÃ©gÃ¨rement arrondis */
+    /*box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* LÃ©gÃ¨re ombre pour rendre le texte plus visible */
+    text-align: center; /* Centrage du texte */
+}
